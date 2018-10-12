@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir> <env-dir>
+
+# Debug, echo every command
+set -x
+
+# Fail immediately on non-zero exit code
+set -e
+
+build_dir=$1
+cache_dir=$2
+env_dir=$3
+
+echo "-----> Hey"
